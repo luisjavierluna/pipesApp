@@ -6,6 +6,12 @@
 
 <button pButton 
   (click)="mostrarNombre()"
-  label="Cambiar Nombre">
-  
-</button>
+  icon="pi pi-bell"
+  iconPos="right"
+  class="p-button-help"
+  label="Cambiar Nombre"></button>
+
+  <p-card [header]="nombre | titlecase"
+          subheader="Esto es un subheader">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, itaque numquam perferendis a quia corrupti dicta odit aperiam doloremque repudiandae eum illum. Ipsum tempora aliquam, nostrum voluptas neque quisquam dolorum?
+  </p-card>
