@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 // Módulo Personalizado
 import { SharedModule } from './shared/shared.module';
+import { AppRouterModule } from './app-router.module';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     SharedModule,
+    AppRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
