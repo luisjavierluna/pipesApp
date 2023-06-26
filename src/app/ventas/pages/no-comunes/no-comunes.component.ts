@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class NoComunesComponent implements OnInit {
+export class NoComunesComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  nombre: string = 'Luis'
+  genero: string = 'masculino'
+  
+  invitacionMapa = {
+    'masculino': 'invitarlo',
+    'femenino': 'invitarla'
   }
-
 }
